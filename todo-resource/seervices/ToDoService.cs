@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
         {
             return new List<ToDO>
             {
-                new (1, "Learn .NET", false),
+                new (1, "Learn .NET is fun", false),
                 new (2, "Build API and see how good ", true),
                 new (3, "Test Application", false),
                 new (4, "Service is working", false),
