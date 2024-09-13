@@ -1,2 +1,2 @@
-    public record TodoItem(int Id, string Name, bool IsComplete);
+    public record ToDO(int Id, string Name, bool IsComplete);
 
