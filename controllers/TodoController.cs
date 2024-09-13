@@ -1,9 +1,6 @@
-// Controllers/TodoController.cs
 using Microsoft.AspNetCore.Mvc;
-using YourProject.Models;
 
-namespace YourProject.Controllers
-{
+
     [ApiController]
     [Route("/")]
     public class TodoController : ControllerBase
@@ -19,4 +16,4 @@ namespace YourProject.Controllers
             };
         }
     }
-}
+
