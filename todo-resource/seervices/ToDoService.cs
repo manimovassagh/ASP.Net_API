@@ -1,7 +1,5 @@
 
 
-
-
 public static class TodoService
 {
     public static List<ToDO> GetToDOs()
@@ -13,6 +11,7 @@ public static class TodoService
                 new (3, "Test Application", false),
                 new (4, "Service is working", false),
                 new (5,"Mani is awesome",true),
+                new (6,"Mani is awesome add some more",false),
             ];
     }
 }

@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 
-
 [ApiController]
 [Route("/")]
 public class TodoController : ControllerBase
