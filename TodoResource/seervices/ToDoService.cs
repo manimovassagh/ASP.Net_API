@@ -1,11 +1,10 @@
-using api.todo_resource.Models;
 
-namespace api. todo_resource.seervices;
+namespace apitodoResource.seervices;
 
 
 public static class TodoService
 {
-    public static List<ToDo> GetToDOs()
+    public static  List<ToDo> GetToDOs()
     {
         return
         [

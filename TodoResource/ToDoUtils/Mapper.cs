@@ -1,11 +1,16 @@
+
+
+
+
+
 using api.todo_resource.Models;
 
-namespace api. todo_resource.todoutils;
-public static class TodoMapper
+public static class ToDoMapper
 {
     private static readonly Random _random = new Random();
 
-    public static ToDo? MapToDO(TodoDto todoDto)
+    
+    public static ToDo MapToDO(TodoDto todoDto)
     {
         if (todoDto == null)
         {

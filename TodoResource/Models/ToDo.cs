@@ -1,6 +1,5 @@
-namespace api.todo_resource.Models;
 
-public class ToDo
+       public class ToDo
 {
 
     public int Id { get; set; }
@@ -15,5 +14,13 @@ public class ToDo
     }
 
 
-}
+} 
+
+
+
+
+
+
+
+
 

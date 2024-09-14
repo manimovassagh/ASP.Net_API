@@ -1,8 +1,8 @@
-using api.todo_resource.Models;
-using api.todo_resource.seervices;
+using apitodoResource.seervices;
 using Microsoft.AspNetCore.Mvc;
 
-namespace api.todo_resource.controllers;
+
+namespace api.TodoResource.controllers;
 
 [ApiController]
 [Route("/")]
