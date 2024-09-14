@@ -1,12 +1,9 @@
-using System.Reflection.Emit;
-using Microsoft.AspNetCore.Mvc;
 
 
 
 
     public static class TodoService
     {
-          
         public static List<ToDO> GetToDOs()
         {
             return new List<ToDO>
