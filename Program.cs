@@ -1,4 +1,5 @@
 using api;
+using api.GameResource.models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,6 +27,8 @@ if (app.Environment.IsDevelopment())
 
 
 app.MapControllers();
+
+new ManLog().LogSomeItems();
 
 
 app.Run();
