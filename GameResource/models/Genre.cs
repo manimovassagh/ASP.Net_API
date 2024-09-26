@@ -1,10 +1,13 @@
 
-
-
 namespace api.GameResource.models;
 
 public class Genre
 {
+
+
+
+
+
 
 
 
